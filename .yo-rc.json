@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "anchor",
+    "libraryId": "890a3a9d-cf4b-4244-aa34-3f0f28be625a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Anchor",
+    "solutionShortDescription": "Anchor description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ListViewCommandSet"
+  }
+}

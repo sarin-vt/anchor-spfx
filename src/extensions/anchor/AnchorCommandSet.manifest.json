@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "6ff2d90f-8ad5-4bbe-a2bf-ec772c65eb07",
+  "alias": "AnchorCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "open_with_anchor": {
+      "title": { "default": "Open with Anchor" },
+      "iconImageUrl": "icons/anchor.png",
+      "type": "command"
+    },
+    "share_with_anchor": {
+      "title": { "default": "Share with Anchor" },
+      "iconImageUrl": "icons/anchor.png",
+      "type": "command"
+    }
+  }
+}

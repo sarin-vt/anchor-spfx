@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://datanchorio.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "6ff2d90f-8ad5-4bbe-a2bf-ec772c65eb07": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "anchor": {
+      "pageUrl": "https://datanchorio.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "6ff2d90f-8ad5-4bbe-a2bf-ec772c65eb07": {
+          "location": "ClientSideExtension.ListViewCommandSet",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
